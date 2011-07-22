@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7216E3D513D8B20C00BBD7E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7216E3D413D8B20C00BBD7E0 /* UIKit.framework */; };
+		7216E3D713D8B20C00BBD7E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7216E3D613D8B20C00BBD7E0 /* Foundation.framework */; };
+		7216E3D913D8B20C00BBD7E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7216E3D813D8B20C00BBD7E0 /* CoreGraphics.framework */; };
+		7216E3DF13D8B20C00BBD7E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7216E3DD13D8B20C00BBD7E0 /* InfoPlist.strings */; };
+		7216E3E213D8B20C00BBD7E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7216E3E113D8B20C00BBD7E0 /* main.m */; };
+		7216E3E513D8B20C00BBD7E0 /* HudsonTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7216E3E413D8B20C00BBD7E0 /* HudsonTestAppDelegate.m */; };
+		7216E3E813D8B20C00BBD7E0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7216E3E613D8B20C00BBD7E0 /* MainWindow.xib */; };
+		7216E3EB13D8B20C00BBD7E0 /* HudsonTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7216E3EA13D8B20C00BBD7E0 /* HudsonTestViewController.m */; };
+		7216E3EE13D8B20C00BBD7E0 /* HudsonTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7216E3EC13D8B20C00BBD7E0 /* HudsonTestViewController.xib */; };
+		7216E3F513D8B20C00BBD7E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7216E3D413D8B20C00BBD7E0 /* UIKit.framework */; };
+		7216E3F613D8B20C00BBD7E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7216E3D613D8B20C00BBD7E0 /* Foundation.framework */; };
+		7216E3F713D8B20C00BBD7E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7216E3D813D8B20C00BBD7E0 /* CoreGraphics.framework */; };
+		7216E3FF13D8B20C00BBD7E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7216E3FD13D8B20C00BBD7E0 /* InfoPlist.strings */; };
+		7216E40213D8B20C00BBD7E0 /* HudsonTestTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 7216E40113D8B20C00BBD7E0 /* HudsonTestTests.h */; };
+		7216E40413D8B20C00BBD7E0 /* HudsonTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7216E40313D8B20C00BBD7E0 /* HudsonTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7216E3F813D8B20C00BBD7E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7216E3C713D8B20C00BBD7E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7216E3CF13D8B20C00BBD7E0;
+			remoteInfo = HudsonTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7216E3D013D8B20C00BBD7E0 /* HudsonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HudsonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7216E3D413D8B20C00BBD7E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7216E3D613D8B20C00BBD7E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7216E3D813D8B20C00BBD7E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7216E3DC13D8B20C00BBD7E0 /* HudsonTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HudsonTest-Info.plist"; sourceTree = "<group>"; };
+		7216E3DE13D8B20C00BBD7E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7216E3E013D8B20C00BBD7E0 /* HudsonTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HudsonTest-Prefix.pch"; sourceTree = "<group>"; };
+		7216E3E113D8B20C00BBD7E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7216E3E313D8B20C00BBD7E0 /* HudsonTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HudsonTestAppDelegate.h; sourceTree = "<group>"; };
+		7216E3E413D8B20C00BBD7E0 /* HudsonTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HudsonTestAppDelegate.m; sourceTree = "<group>"; };
+		7216E3E713D8B20C00BBD7E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7216E3E913D8B20C00BBD7E0 /* HudsonTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HudsonTestViewController.h; sourceTree = "<group>"; };
+		7216E3EA13D8B20C00BBD7E0 /* HudsonTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HudsonTestViewController.m; sourceTree = "<group>"; };
+		7216E3ED13D8B20C00BBD7E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HudsonTestViewController.xib; sourceTree = "<group>"; };
+		7216E3F413D8B20C00BBD7E0 /* HudsonTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HudsonTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7216E3FC13D8B20C00BBD7E0 /* HudsonTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HudsonTestTests-Info.plist"; sourceTree = "<group>"; };
+		7216E3FE13D8B20C00BBD7E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7216E40013D8B20C00BBD7E0 /* HudsonTestTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HudsonTestTests-Prefix.pch"; sourceTree = "<group>"; };
+		7216E40113D8B20C00BBD7E0 /* HudsonTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HudsonTestTests.h; sourceTree = "<group>"; };
+		7216E40313D8B20C00BBD7E0 /* HudsonTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HudsonTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7216E3CD13D8B20C00BBD7E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7216E3D513D8B20C00BBD7E0 /* UIKit.framework in Frameworks */,
+				7216E3D713D8B20C00BBD7E0 /* Foundation.framework in Frameworks */,
+				7216E3D913D8B20C00BBD7E0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7216E3F013D8B20C00BBD7E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7216E3F513D8B20C00BBD7E0 /* UIKit.framework in Frameworks */,
+				7216E3F613D8B20C00BBD7E0 /* Foundation.framework in Frameworks */,
+				7216E3F713D8B20C00BBD7E0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7216E3C513D8B20C00BBD7E0 = {
+			isa = PBXGroup;
+			children = (
+				7216E3DA13D8B20C00BBD7E0 /* HudsonTest */,
+				7216E3FA13D8B20C00BBD7E0 /* HudsonTestTests */,
+				7216E3D313D8B20C00BBD7E0 /* Frameworks */,
+				7216E3D113D8B20C00BBD7E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7216E3D113D8B20C00BBD7E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7216E3D013D8B20C00BBD7E0 /* HudsonTest.app */,
+				7216E3F413D8B20C00BBD7E0 /* HudsonTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7216E3D313D8B20C00BBD7E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7216E3D413D8B20C00BBD7E0 /* UIKit.framework */,
+				7216E3D613D8B20C00BBD7E0 /* Foundation.framework */,
+				7216E3D813D8B20C00BBD7E0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7216E3DA13D8B20C00BBD7E0 /* HudsonTest */ = {
+			isa = PBXGroup;
+			children = (
+				7216E3E313D8B20C00BBD7E0 /* HudsonTestAppDelegate.h */,
+				7216E3E413D8B20C00BBD7E0 /* HudsonTestAppDelegate.m */,
+				7216E3E613D8B20C00BBD7E0 /* MainWindow.xib */,
+				7216E3E913D8B20C00BBD7E0 /* HudsonTestViewController.h */,
+				7216E3EA13D8B20C00BBD7E0 /* HudsonTestViewController.m */,
+				7216E3EC13D8B20C00BBD7E0 /* HudsonTestViewController.xib */,
+				7216E3DB13D8B20C00BBD7E0 /* Supporting Files */,
+			);
+			path = HudsonTest;
+			sourceTree = "<group>";
+		};
+		7216E3DB13D8B20C00BBD7E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7216E3DC13D8B20C00BBD7E0 /* HudsonTest-Info.plist */,
+				7216E3DD13D8B20C00BBD7E0 /* InfoPlist.strings */,
+				7216E3E013D8B20C00BBD7E0 /* HudsonTest-Prefix.pch */,
+				7216E3E113D8B20C00BBD7E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7216E3FA13D8B20C00BBD7E0 /* HudsonTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7216E40113D8B20C00BBD7E0 /* HudsonTestTests.h */,
+				7216E40313D8B20C00BBD7E0 /* HudsonTestTests.m */,
+				7216E3FB13D8B20C00BBD7E0 /* Supporting Files */,
+			);
+			path = HudsonTestTests;
+			sourceTree = "<group>";
+		};
+		7216E3FB13D8B20C00BBD7E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7216E3FC13D8B20C00BBD7E0 /* HudsonTestTests-Info.plist */,
+				7216E3FD13D8B20C00BBD7E0 /* InfoPlist.strings */,
+				7216E40013D8B20C00BBD7E0 /* HudsonTestTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7216E3CF13D8B20C00BBD7E0 /* HudsonTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7216E40713D8B20C00BBD7E0 /* Build configuration list for PBXNativeTarget "HudsonTest" */;
+			buildPhases = (
+				7216E3CC13D8B20C00BBD7E0 /* Sources */,
+				7216E3CD13D8B20C00BBD7E0 /* Frameworks */,
+				7216E3CE13D8B20C00BBD7E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HudsonTest;
+			productName = HudsonTest;
+			productReference = 7216E3D013D8B20C00BBD7E0 /* HudsonTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7216E3F313D8B20C00BBD7E0 /* HudsonTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7216E40A13D8B20C00BBD7E0 /* Build configuration list for PBXNativeTarget "HudsonTestTests" */;
+			buildPhases = (
+				7216E3EF13D8B20C00BBD7E0 /* Sources */,
+				7216E3F013D8B20C00BBD7E0 /* Frameworks */,
+				7216E3F113D8B20C00BBD7E0 /* Resources */,
+				7216E3F213D8B20C00BBD7E0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7216E3F913D8B20C00BBD7E0 /* PBXTargetDependency */,
+			);
+			name = HudsonTestTests;
+			productName = HudsonTestTests;
+			productReference = 7216E3F413D8B20C00BBD7E0 /* HudsonTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7216E3C713D8B20C00BBD7E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Medialets.com;
+			};
+			buildConfigurationList = 7216E3CA13D8B20C00BBD7E0 /* Build configuration list for PBXProject "HudsonTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7216E3C513D8B20C00BBD7E0;
+			productRefGroup = 7216E3D113D8B20C00BBD7E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7216E3CF13D8B20C00BBD7E0 /* HudsonTest */,
+				7216E3F313D8B20C00BBD7E0 /* HudsonTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7216E3CE13D8B20C00BBD7E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7216E3DF13D8B20C00BBD7E0 /* InfoPlist.strings in Resources */,
+				7216E3E813D8B20C00BBD7E0 /* MainWindow.xib in Resources */,
+				7216E3EE13D8B20C00BBD7E0 /* HudsonTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7216E3F113D8B20C00BBD7E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7216E3FF13D8B20C00BBD7E0 /* InfoPlist.strings in Resources */,
+				7216E40213D8B20C00BBD7E0 /* HudsonTestTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7216E3F213D8B20C00BBD7E0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7216E3CC13D8B20C00BBD7E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7216E3E213D8B20C00BBD7E0 /* main.m in Sources */,
+				7216E3E513D8B20C00BBD7E0 /* HudsonTestAppDelegate.m in Sources */,
+				7216E3EB13D8B20C00BBD7E0 /* HudsonTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7216E3EF13D8B20C00BBD7E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7216E40413D8B20C00BBD7E0 /* HudsonTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7216E3F913D8B20C00BBD7E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7216E3CF13D8B20C00BBD7E0 /* HudsonTest */;
+			targetProxy = 7216E3F813D8B20C00BBD7E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7216E3DD13D8B20C00BBD7E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7216E3DE13D8B20C00BBD7E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7216E3E613D8B20C00BBD7E0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7216E3E713D8B20C00BBD7E0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		7216E3EC13D8B20C00BBD7E0 /* HudsonTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7216E3ED13D8B20C00BBD7E0 /* en */,
+			);
+			name = HudsonTestViewController.xib;
+			sourceTree = "<group>";
+		};
+		7216E3FD13D8B20C00BBD7E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7216E3FE13D8B20C00BBD7E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7216E40513D8B20C00BBD7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7216E40613D8B20C00BBD7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		7216E40813D8B20C00BBD7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HudsonTest/HudsonTest-Prefix.pch";
+				INFOPLIST_FILE = "HudsonTest/HudsonTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7216E40913D8B20C00BBD7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HudsonTest/HudsonTest-Prefix.pch";
+				INFOPLIST_FILE = "HudsonTest/HudsonTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7216E40B13D8B20C00BBD7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HudsonTest.app/HudsonTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HudsonTestTests/HudsonTestTests-Prefix.pch";
+				INFOPLIST_FILE = "HudsonTestTests/HudsonTestTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7216E40C13D8B20C00BBD7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HudsonTest.app/HudsonTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HudsonTestTests/HudsonTestTests-Prefix.pch";
+				INFOPLIST_FILE = "HudsonTestTests/HudsonTestTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7216E3CA13D8B20C00BBD7E0 /* Build configuration list for PBXProject "HudsonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7216E40513D8B20C00BBD7E0 /* Debug */,
+				7216E40613D8B20C00BBD7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7216E40713D8B20C00BBD7E0 /* Build configuration list for PBXNativeTarget "HudsonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7216E40813D8B20C00BBD7E0 /* Debug */,
+				7216E40913D8B20C00BBD7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7216E40A13D8B20C00BBD7E0 /* Build configuration list for PBXNativeTarget "HudsonTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7216E40B13D8B20C00BBD7E0 /* Debug */,
+				7216E40C13D8B20C00BBD7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7216E3C713D8B20C00BBD7E0 /* Project object */;
+}
