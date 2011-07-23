@@ -38,6 +38,11 @@
     return true;
 }
 
++ (int) addIntegers:(int)integerOne integerTwo:(int)integerTwo
+{
+    return integerOne + integerTwo;   
+}
+
 - (void)viewDidUnload
 {
     [super viewDidUnload];

@@ -29,6 +29,11 @@
 {
     STAssertTrue([HudsonTestViewController returnTrue], @"returnTrue method passed test");
     //STFail(@"Unit tests are not implemented yet in HudsonTestTests");
+
+    int result = [HudsonTestViewController addIntegers:2 integerTwo:2];
+    
+    STAssertTrue(4 == result, @"2 + 2 = 4");
+    
 }
 
 @end
